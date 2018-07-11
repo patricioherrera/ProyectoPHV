@@ -7,7 +7,7 @@ import { Http, Response} from '@angular/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'al club de la pelea';
+  title = 'a mi primer proyecto angular';
    idProducto = '';
     descripcionProducto = '';
      precioProducto = '';
