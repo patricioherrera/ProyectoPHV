@@ -22,6 +22,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Bienvenido a mi primer proyecto angular');
+    expect(compiled.querySelector('h1').textContent).toContain('Bienvenido a mi proyecto angular');
   }));
 });
